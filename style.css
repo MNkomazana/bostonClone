@@ -23,7 +23,7 @@ body{
     margin-bottom:20px;
 }
 .logo img{
-    height:100px;
+    height:125px;
     width:150px;
 }
 .colAccount{
@@ -45,7 +45,7 @@ body{
 .formLogin input{
     width:100%;
     height:3em;
-    border-radius:3px;
+    border-radius:6px;
     outline:transparent;
     border:transparent;
     padding:10px;
@@ -67,14 +67,14 @@ body{
 .loginbtn button{
     width:120px;
     height:30px;
-    border-radius:4px;
+    border-radius:6px;
     border:2px solid #fff;
-    background-color:#2d4059;
+    background-color:#23344b;;
     color:#fff;
     font-size:1em;
 }
 .loginbtn button:hover{
-    background-color:#828588;
+    background-color:#a7abaf;
     opacity:0.8;
 }
 /* Footer copyrights */
