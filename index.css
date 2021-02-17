@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.courseContent{
+    display:flex;
+}
+/* Navigation */
+#logo img{
+    height:90px;
+    width:90px;
+    object-fit:contain;
+}
+#account{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#account div .accPic{
+    border:2px solid #fff;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+}
+.nav{
+    height:100vh;
+    padding:5px;
+    background-color:#23344b;
+    text-align:center;
+}
+.nav div{
+    height:100px;
+}
+.nav div a{
+    color:#fff;
+    text-decoration: none;
+}
+.modules{
+    height:50vh;
+    flex:7;
+}
+.to_do{
+    height:50vh;
+    flex:1;
+}
+/* Dashboard */
+.dashboard{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    padding:10px;
+    margin:auto;
+    color:rgb(107, 104, 104);
+    border-bottom: 1px solid rgb(88, 87, 87);
+}
+.hdashboard h2{
+    font-size:2em;
+    font-weight:lighter;
+}
+.dots{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-right:20px;
+}
+.dots div{
+    height:5px;
+    width:5px;
+    margin:2px;
+    border:1px solid rgb(75, 72, 72);
+    border-radius:50%;
+    background-color:rgb(75, 72, 72);
+}
